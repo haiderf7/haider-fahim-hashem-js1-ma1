@@ -57,7 +57,7 @@ resultsContainer.innerHTML = `<p>New paragraph</p>`;
 resultsContainer.querySelector("p").style.backgroundColor = "yellow";
 
 
-// Question 7:
+// Question 7: forTheCat
 
 function forTheCat(list) {
     for(let i = 0; i < list.length; i++) {
@@ -69,7 +69,8 @@ forTheCat(cats);
 
 // Question 8
 
-function createCats(cats) {
+
+function creationOfCats(cats) {
     let catName = "";
     let catAge = "";
     let newHTML = "";
@@ -92,7 +93,7 @@ function createCats(cats) {
     return newHTML;
 }
 
-const newHTML = createCats(cats);
+const newHTML = creationOfCats(cats);
 
 const catContainer = document.querySelector(".cat-container");
 catContainer.innerHTML = newHTML;
